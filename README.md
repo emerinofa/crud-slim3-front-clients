@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Proyecto CRUD con react + typescript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un CRUD (Create, Read, Update, Delete) desarrollado con React en el frontend y PHP en el backend con el mircroframwor SLIM 3. Permite gestionar una lista de clientes.
 
-Currently, two official plugins are available:
+## Requisitos previos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Asegúrate de tener instalado lo siguiente:
 
-## Expanding the ESLint configuration
+- Node.js: Versión 18 o superior.
+- npm: Gestor de paquetes de Node.js.
+- Git: Para clonar el repositorio.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instrucciones de instalación
+#### 1. Clonar el proyecto
+Clona el repositorio:
+`git clone https://github.com/emerinofa/crud-slim3-front-clients.git`
+#### 2. Instala las dependencias
+`npm run dev
+`
+#### 3. Inicia el servidor de desarrollo
+`yarn dev`
 
-- Configure the top-level `parserOptions` property like this:
+#### 4. Accede a la aplicacion
+- Abre tu navegador y visita `http://localhost:3000`
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Autor
+- MERINO FARFAN ELVIS HERNAN
