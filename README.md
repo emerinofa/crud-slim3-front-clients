@@ -1,6 +1,6 @@
 # Proyecto CRUD con react + typescript
 
-Este proyecto es un CRUD (Create, Read, Update, Delete) desarrollado con React en el frontend y PHP en el backend con el mircroframwor SLIM 3. Permite gestionar una lista de clientes.
+Este proyecto es un CRUD (Create, Read, Update, Delete) desarrollado con React en el frontend y PHP en el backend con el microframework SLIM 3. Permite gestionar una lista de clientes.
 
 ## Requisitos previos
 
