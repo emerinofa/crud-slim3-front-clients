@@ -13,9 +13,10 @@ Asegúrate de tener instalado lo siguiente:
 ## Instrucciones de instalación
 #### 1. Clonar el proyecto
 Clona el repositorio:
-`git clone https://github.com/emerinofa/crud-slim3-front-clients.git`
+- `git clone https://github.com/emerinofa/crud-slim3-front-clients.git`
+- cd tu-repositorio
 #### 2. Instala las dependencias
-`npm run dev
+`npm install
 `
 #### 3. Inicia el servidor de desarrollo
 `yarn dev`
